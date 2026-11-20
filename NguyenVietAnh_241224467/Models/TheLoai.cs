@@ -13,3 +13,4 @@ public partial class TheLoai
 
     public virtual ICollection<Sach> Saches { get; set; } = new List<Sach>();
 }
+//
