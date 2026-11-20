@@ -1,0 +1,8 @@
+﻿@model IEnumerable<NguyenVietAnh_241224467.Models.TheLoai>
+<ul class="menu">
+    <li class="active"><a asp-controller="Home" asp-action="Index">NguyenVietAnh</a></li>
+    @foreach(var item in Model)
+    {
+        <li id="@item.MaTl"><a style="cursor:pointer;">@item.TenTl</a></li>
+    }
+</ul>
